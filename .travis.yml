@@ -1,6 +1,8 @@
 language: python
+python:
+  - "3.9"
 
-install: echo "installed"
+install: echo "installed..."
 
 script: python test-script.py
 
